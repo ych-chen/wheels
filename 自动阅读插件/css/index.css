@@ -1,0 +1,50 @@
+
+.book-list .list-item{
+    position: relative;
+    height: 150px;
+    border-bottom: 1px solid #000;
+}
+
+.book-list .list-item .item-link{
+    display: block;
+    height: 100%;
+}
+
+.book-list .list-item .book-pic{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 150px;
+    padding: 10px;
+}
+
+.book-list .list-item .book-info{
+    margin-left: 118px;
+    height: 100%;
+    color: #424242;
+}
+.book-list .list-item .book-info h2,
+.book-list .list-item .book-info p{
+    margin: 10px;
+}
+
+.book-list .list-item .book-info .intro{
+    overflow: hidden;
+    text-overflow: ellipsis; /* 显示省略号 */
+    white-space: nowrap;
+}
+
+.s-top-btn{
+    display: none;
+    position: fixed;
+    bottom: 25px;
+    right: 20px;
+    height: 60px;
+    width: 60px;
+    background: url(../img/rocket.jpg) no-repeat 0 0/100% 100%;
+    border-radius: 50%;
+    opacity: .6;
+}
+.s-top-btn:hover{
+    opacity: 1;
+}

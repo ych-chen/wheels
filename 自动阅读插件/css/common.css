@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+}
+
+.list-hd{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 44px;
+    width: 100%;
+    background-color: orange;
+    color: #fff;
+    line-height: 44px;
+    text-align: center;
+    z-index: 1;
+}
+
+.container{
+    margin-top: 44px;
+}
+
+div{
+    box-sizing: border-box;
+}
+
+h2,p{
+    margin: 0;
+    font-weight: normal; /* 设置字体粗细*/
+    
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+img{
+    height: 100%;
+}
