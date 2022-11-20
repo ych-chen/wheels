@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <div class="tab J_tab"></div>
+
+    <script type="text/html" id="J_navItemIpl">
+        <div class="{{navStyleClass}}">{{navItemTitle}}</div>
+    </script>
+
+    <script type="text/html" id="J_pageItemIpl">
+        <div class="{{pageStyleClass}}">
+            <h1>{{cityName}}</h1>
+            <p>{{intro}}</p>
+        </div>
+    </script>
+    
+    <div style="display: none" id="J_cityData">
+        [
+            {
+                "id": "1",
+                "city_name": "beijing",
+                "intro": "this is beijing"
+            },
+            {
+                "id": "2",
+                "city_name": "wuhan",
+                "intro": "this is wuhan"
+            },
+            {
+                "id": "3",
+                "city_name": "shenzhen",
+                "intro": "this is shenzhen"
+            }
+        ]
+    </div>
+    <script src="./tools/tools.js"></script>
+    <script src="./js/index.js"></script>
+    <script type="text/javascript">
+        var tab = new Tab().init();
+    </script>
+</body>
+</html>
