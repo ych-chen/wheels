@@ -31,7 +31,6 @@
         oFrag.appendChild(this.oNav);
         oFrag.appendChild(this.oPage);
         this.oTab.appendChild(oFrag);
-
     }
 
     Tab.prototype.renderList = function(data){

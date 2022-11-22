@@ -4,11 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>demo展示</title>
+
+    <title>插件集合</title>
 </head>
 <body>
-    <head>我将在此界面上展示一些学习过程中实现的案例</head><br>
-    <a href="./自动阅读插件/index.html">自动阅读插件</a><br>
-    <a href="./tab-control/index.html">tab-control</a>
+    <div class="container">
+        <div class="title">学习过程中实现的插件</div>
+        <div class="content js-content">
+            <h3>基于原生JavaScript实现的插件</h3>
+            <div class="">
+                <a href="./src/1.1自动阅读插件/index.html">1. 自动阅读插件</a><br>
+                <a href="./src/1.2tab-control/index.html">2. tab-control</a><br>
+            </div>
+        </div>
+        <hr>
+        <div class="content vue-content">
+            <h3>基于vue3实现的插件</h3>
+            <a href="./src/2.1轮播图/index.html">1. 基于vue实现轮播图</a><br>
+            <a href="./src/2.2无限树级目录/index.html">2. 基于vue实现无限树级目录</a>
+        </div>
+        <div class="content doing">
+            <h3>正在实现中...</h3>
+            <a href="./src/腾讯课堂课程选项卡/index.html">腾讯课堂课程选项卡</a><br>
+        </div>
+    </div>
+    <style type="text/css">
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            margin: 30px auto;
+            width: 500px;
+            text-align: left;
+        }
+        .title{
+            font-size: 30px;
+            text-align: center;
+        }
+        .content{
+            margin: 10px;
+        }
+        a{  
+            display: flex;
+            line-height: 20px;
+            background-color: white;
+            border-radius: 0.5rem;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+    </style>
 </body>
 </html>

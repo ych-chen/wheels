@@ -1,3 +1,5 @@
+
+// 添加事件处理函数
 function addEvent(el, type, fn){
     if(el.addEventListener){
         el.addEventListener(type, fn, false)
@@ -10,6 +12,7 @@ function addEvent(el, type, fn){
     }
 }
 
+// 返回窗口距离左边距和上边距
 function getScrollOffset(){
     if(window.pageXOffset){
         return {
@@ -24,6 +27,7 @@ function getScrollOffset(){
     }
 }
 
+// 返回窗口总宽度和总长度（不变值）
 function getViewportSize(){
     if(window.innerWidth){
         return{
@@ -45,6 +49,7 @@ function getViewportSize(){
     }
 }
 
+// 返回窗口总宽度和总长度（不变值）
 function getScrollSize(){
     if(document.body.scrollHeight){
         return {

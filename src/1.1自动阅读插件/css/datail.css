@@ -13,9 +13,9 @@
 
     opacity: .6;
 }
-.s-top-btn{
+.top-btn{
     display: none;
-    bottom: 110px;
+    bottom: 100px;
     background: url(../img/rocket.jpg) no-repeat 0 0/100% 100%;
 }
 
