@@ -27,7 +27,7 @@ function getScrollOffset(){
     }
 }
 
-// 返回窗口总宽度和总长度（不变值）
+// 返回浏览器可视高度
 function getViewportSize(){
     if(window.innerWidth){
         return{
