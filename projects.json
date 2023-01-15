@@ -1,0 +1,14 @@
+{
+    "projects":[
+        {
+            "name":"自动阅读插件",
+            "img":"https://50projects50days.com/img/projects-img/1-expanding-cards.png",
+            "href":"./src/1.1自动阅读插件/index.html"
+        },
+        {
+            "name":"自动阅读插件",
+            "img":"https://50projects50days.com/img/projects-img/1-expanding-cards.png",
+            "href":"./src/1.1自动阅读插件/index.html"
+        }
+    ]
+}
